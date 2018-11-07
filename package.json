@@ -1,0 +1,25 @@
+{
+  "name": "basedp-ui",
+  "version": "1.0.0",
+  "description": "A set of primitive react components based on styled components and styled-system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dapetrov0/basedp-ui.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "styled-components",
+    "styled-system"
+  ],
+  "author": "dapetrov0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dapetrov0/basedp-ui/issues"
+  },
+  "homepage": "https://github.com/dapetrov0/basedp-ui#readme"
+}
