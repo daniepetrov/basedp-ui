@@ -7,8 +7,8 @@ yarn-error.log*
 .idea
 coverage
 node_modules/
-dist
-build
+dist/
+build/
 package-lock.json
 ./lang.config.js
 .env.local
