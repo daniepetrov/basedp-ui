@@ -1,6 +1,6 @@
 {
   "name": "basedp-ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A set of primitive react components based on styled components and styled-system.",
   "main": "dist/index.js",
   "files": [
@@ -30,9 +30,6 @@
     "url": "https://github.com/dapetrov0/basedp-ui/issues"
   },
   "homepage": "https://github.com/dapetrov0/basedp-ui#readme",
-  "dependencies": {
-    "styled-system": "^3.1.11"
-  },
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
@@ -51,7 +48,8 @@
     "webpack-dev-server": "^3.1.10"
   },
   "peerDependencies": {
-    "styled-components": "^4.1.1"
+    "styled-components": "^4.1.1",
+    "styled-system": "^3.1.11"
   },
   "bundlesize": [
     {
