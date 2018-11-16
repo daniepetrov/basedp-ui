@@ -1,6 +1,6 @@
 {
   "name": "basedp-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A set of primitive react components based on styled components and styled-system.",
   "main": "dist/index.js",
   "files": [
@@ -13,6 +13,9 @@
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "size": "npx bundlesize"
+  },
+  "publishConfig": {
+    "registry": "https://verdaccio.kube.teledirekt.ru/"
   },
   "repository": {
     "type": "git",
