@@ -3897,7 +3897,7 @@ react-is@^16.6.0:
 
 react@^16.6.3:
   version "16.6.3"
-  resolved "https://verdaccio-test.kube.teledirekt.ru/react/-/react-16.6.3.tgz#25d77c91911d6bbdd23db41e70fb094cc1e0871c"
+  resolved "https://verdaccio.kube.teledirekt.ru/react/-/react-16.6.3.tgz#25d77c91911d6bbdd23db41e70fb094cc1e0871c"
   integrity sha512-zCvmH2vbEolgKxtqXL2wmGCUxUyNheYn/C+PD1YAjfxHC54+MhdruyhO7QieQrYsYeTxrn93PM2y0jRH1zEExw==
   dependencies:
     loose-envify "^1.1.0"
@@ -4486,7 +4486,7 @@ strip-json-comments@~2.0.1:
 
 styled-components@^4.1.1:
   version "4.1.1"
-  resolved "https://verdaccio-test.kube.teledirekt.ru/styled-components/-/styled-components-4.1.1.tgz#943922048fae556e286bcbfdd29da4f1399446bc"
+  resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-4.1.1.tgz#943922048fae556e286bcbfdd29da4f1399446bc"
   integrity sha512-UzT/qyoOyKpYooeLdwKrPHZ85R8KWl8i0fbyH9I3z6B2WT9uGDCV7J4kbfKsBeSWFD9EytBriEODOkybcUFD/Q==
   dependencies:
     "@emotion/is-prop-valid" "^0.6.8"
@@ -4502,7 +4502,7 @@ styled-components@^4.1.1:
 
 styled-system@^3.1.11:
   version "3.1.11"
-  resolved "https://verdaccio-test.kube.teledirekt.ru/styled-system/-/styled-system-3.1.11.tgz#a91a38cf7a0f0e625b897a04fdd506a359a3629f"
+  resolved "https://registry.yarnpkg.com/styled-system/-/styled-system-3.1.11.tgz#a91a38cf7a0f0e625b897a04fdd506a359a3629f"
   integrity sha512-d0p32F7Y55uRWNDb1P0JcIiGVi13ZxiSCvn8zNS68exAKW9Q5jp+IGTXUIavQOD/J8r3tydtE3vRk8Ii2i39HA==
   dependencies:
     "@babel/runtime" "^7.1.2"
