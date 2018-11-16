@@ -1,16 +1,18 @@
 {
   "name": "basedp-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of primitive react components based on styled components and styled-system.",
   "main": "dist/index.js",
   "files": [
     "./dist/index.js"
   ],
   "scripts": {
+    "prepare": "npm run clean && npm run build",
+    "clean": "rm -rf dist",
+    "start": "webpack-dev-server --config ./examples/webpack.config.dev.js",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --config ./webpack.test.js --mode development",
-    "build": "rm ./dist/* && webpack --mode production",
-    "publish": "npm publish --registry https://verdaccio.kube.teledirekt.ru"
+    "size": "npx bundlesize"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,7 @@
   },
   "homepage": "https://github.com/dapetrov0/basedp-ui#readme",
   "peerDependencies": {
+    "LandingContext": "^1.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "styled-components": "^4.1.1",
@@ -38,17 +41,22 @@
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
+    "LandingContext": "^1.0.0",
     "babel-loader": "^8.0.4",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "styled-components": "^4.1.1",
     "styled-system": "^3.1.11",
     "url-loader": "^1.1.2",
     "webpack": "^4.25.1",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   },
-  "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
-  }
+  "bundlesize": [
+    {
+      "path": "dist/*"
+    }
+  ]
 }
