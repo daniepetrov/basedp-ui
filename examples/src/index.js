@@ -6,7 +6,9 @@ import { Box } from './../../dist'
 
 const App = () => (
   <Provider value={{ locale: 'RU' }}>
-    <Box color="red">Clam</Box>
+    <Box color="red" bg="blue">
+      Clam
+    </Box>
   </Provider>
 )
 
